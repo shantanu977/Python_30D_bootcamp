@@ -19,6 +19,15 @@ def write(): #Function Defination
 
 write() #calling function
 
+# Q4 -> Running Pyhton Prog on terminal
+
+'''
+1. Open Termianl (Command Promt/ Powershell)
+2. Go To File Location
+3. Simply Run File -> python filename.py 
+ex) python first,py
+'''
+
 # Q5 -> Calculator(printing sum)
 
 def add(a,b):
