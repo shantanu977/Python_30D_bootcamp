@@ -50,3 +50,4 @@ print("Total : ",total)
 students = [{'name' : 'Meera' , 'age' : 22},{'name' : 'Radha' , 'age' : 20}]
 ans = sorted(students, key= lambda student : student['age'])
 print(ans)
+
