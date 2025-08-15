@@ -20,7 +20,6 @@ except ValueError as e:
 
 
 #Assignment 2: Bank Account Withdrawal
-
 class BankAccount:
     def __init__(self, balance=0):
         self.balance = balance
