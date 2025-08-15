@@ -52,3 +52,29 @@ copy_cart = cart.copy()
 cart.clear()
 print(copy_cart)
 print(cart)
+# Assignment 1
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+print(set1 & set2)
+print(set1 - set2)
+print(set1 | set2)
+
+# Assignment 2
+phonebook = {"A": "111", "B": "222"}
+phonebook["C"] = "333"
+phonebook["A"] = "999"
+del phonebook["B"]
+name = input("Enter name: ")
+print(phonebook.get(name, "Not found"))
+
+# Assignment 3
+ops = {
+    "add": lambda x, y: x + y,
+    "sub": lambda x, y: x - y,
+    "mul": lambda x, y: x * y,
+    "div": lambda x, y: x / y
+}
+o = input("Operation: ")
+a = float(input("A: "))
+b = float(input("B: "))
+print(ops[o](a, b))
